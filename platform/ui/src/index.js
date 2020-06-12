@@ -19,14 +19,17 @@ import {
   TableList,
   TableListItem,
   Thumbnail,
+  TabComponents,
+  TabFooter,
+  HotkeyField,
+  LanguageSwitcher,
   TableSearchFilter,
   TablePagination,
   ToolbarSection,
   Tooltip,
   AboutContent,
-  UserPreferences,
-  UserPreferencesForm,
   OHIFModal,
+  ErrorBoundary
 } from './components';
 import { useDebounce, useMedia } from './hooks';
 
@@ -98,6 +101,10 @@ export {
   TableList,
   TableListItem,
   Thumbnail,
+  TabComponents,
+  TabFooter,
+  HotkeyField,
+  LanguageSwitcher,
   TableSearchFilter,
   TablePagination,
   Toolbar,
@@ -105,8 +112,6 @@ export {
   ToolbarSection,
   Tooltip,
   AboutContent,
-  UserPreferences,
-  UserPreferencesForm,
   ViewerbaseDragDropContext,
   SnackbarProvider,
   useSnackbarContext,
@@ -119,6 +124,7 @@ export {
   DialogProvider,
   withDialog,
   useDialog,
+  ErrorBoundary,
   // Hooks
   useDebounce,
   useMedia,
